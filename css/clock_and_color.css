@@ -1,0 +1,101 @@
+.fun-wrapper {
+  background: #3CC47C;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.clock-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#clock {
+  font: inherit;
+  font-size: 1em;
+  color: white;
+}
+
+#clock .label {
+  font-size: 0.9em;
+  text-transform: uppercase;
+/*  background: rgba(0, 150, 100, 0.7);*/
+  padding: 0.25em 1rem;
+}
+
+#current-time {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+#current-date {
+  padding-bottom: 1rem;
+}
+
+#current-time, #current-date {
+  font-size: 100%;
+/*  background: rgba(0, 150, 100, 0.7);*/
+}
+
+.colors-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.colors {
+  font-size: 0.9em;
+  padding: 0 1em 0.5em 1em;
+}
+
+.monday {
+  color: #800080;
+}
+
+.tuesday {
+  color: #FFFF00;
+}
+
+.wednesday {
+  color: #FF0000;
+}
+
+.thursday {
+  color: #008000;
+}
+
+.friday {
+  color: #0000FF;
+}
+
+.saturday {
+  color: #00FFFF;
+}
+
+.sunday {
+  color: #FFA500;
+}
+
+@media only screen and (min-width:768px) {
+  .colors {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .fun-wrapper {
+    font-size: 1.2em;
+  }
+
+  .colors {
+    font-size: 0.9em;
+  }
+
+  #clock .label {
+    font-size: 0.9em;
+  }
+}

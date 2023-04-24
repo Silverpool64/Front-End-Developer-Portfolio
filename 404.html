@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <link rel="icon" type="image/x-icon" href="img/SPOILER_Silverpool_v01.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+          line-height: 1.2;
+          margin: 0;
+        }
+
+        html {
+          color: #CFCFCB;
+          background-color: #545455;
+          display: table;
+          font-family: sans-serif;
+          height: 100%;
+          text-align: center;
+          width: 100%;
+        }
+
+        body {
+          display: table-cell;
+          vertical-align: middle;
+          margin: 2em auto;
+        }
+
+        h1 {
+          color: #555;
+          font-size: 2em;
+          font-weight: 400;
+        }
+
+        a {
+          color: #00B02A;
+          text-decoration: none;
+        }
+
+        p {
+          margin: 0 auto;
+/*          width: 280px;*/
+        }
+
+        li {
+          list-style: none;
+        }
+
+        .error {
+          color: red;
+        }
+
+        @media only screen and (max-width: 280px) {
+
+          body,
+          p {
+            width: 95%;
+          }
+
+          h1 {
+            font-size: 1.5em;
+            margin: 0 0 0.3em;
+          }
+
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/61c6533ad7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/clock_and_color.css">
+</head>
+
+<body>
+    <div id="main-content">
+        <h1 class="error">Error (404 Not Found)</h1>
+        <h2 id="error404" class="error">The content can't be found.</h2>
+        <p>Perhaps one of the links below will serve as an adequate replacement for what you hoped to find. You can:</p>
+        <ul>
+            <li><span>Go to the <a href="index.html" title="Home Page">homepage</a>.</span></li>
+            <li><span>Go to <a href="https://ocremix.org" title="Go to OC ReMix">OverClocked ReMix - Video Game Music Community,</a> a website featuring thousands of free fan arrangements, information on game music and composers, resources for aspiring artists, and a thriving community of video game music fans.</span></li>
+            <li><span>Go to <a href="https://google.com" title="Go to Google">Google</a> and try to find what you were really looking for.</span></li>
+        </ul>
+
+        <div class="fun-wrapper">
+            <div class="clock-wrapper">
+                <div id="clock">
+                    <div class="label">Current Time</div>
+                    <div id="current-time">This element requires JavaScript.</div>
+                    <div id="current-date"></div>
+                </div>
+            </div>
+            <div class="colors-wrapper">
+                <p class="colors"><i class="fa fa-copyright"></i> Copyright <script>document.write(new Date().getFullYear())</script> | Daniel Gephart</p>
+            </div>
+        </div>
+
+    </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/404-script.js"></script>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
