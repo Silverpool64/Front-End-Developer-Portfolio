@@ -456,6 +456,10 @@ footer .follow-section {
   justify-content: center;
 }
 
+footer a:hover {
+  color: #FFFC8A;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
