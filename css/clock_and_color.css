@@ -1,5 +1,7 @@
 .fun-wrapper {
-  background: #3CC47C;
+  /*  background: #3CC47C;*/
+/*  background: #276CDD;*/
+  background: #CFCFCB;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -17,13 +19,12 @@
 #clock {
   font: inherit;
   font-size: 1em;
-  color: white;
+  color: #545455;
 }
 
 #clock .label {
   font-size: 0.9em;
   text-transform: uppercase;
-/*  background: rgba(0, 150, 100, 0.7);*/
   padding: 0.25em 1rem;
 }
 
@@ -37,7 +38,6 @@
 
 #current-time, #current-date {
   font-size: 100%;
-/*  background: rgba(0, 150, 100, 0.7);*/
 }
 
 .colors-wrapper {
@@ -50,6 +50,7 @@
 .colors {
   font-size: 0.9em;
   padding: 0 1em 0.5em 1em;
+  text-shadow: #3CC 1px 0 10px;
 }
 
 .monday {
