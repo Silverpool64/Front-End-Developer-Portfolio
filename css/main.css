@@ -96,10 +96,7 @@ body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #CFCFCB;
-/*  background-color: #0050BB;*/
-/*  background-color: #276CDD;*/
   background-color: #CFCFCB;
-/*  background-color: #545455;*/
   /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
 }
 
@@ -435,7 +432,7 @@ header h2 {
 }
 
 #about h4 {
-  color: #3CC47C;
+  color: #545455;
   line-height: 40px;
 }
 
@@ -755,7 +752,6 @@ footer .social-icons li a:hover {
 
   .skill,
   .tool {
-    /*  width: auto; */
     width: 45%;
   }
 
@@ -980,11 +976,6 @@ footer .social-icons li a:hover {
     max-width: 70%;
   }
 
-  /* portfolio */
-/*  .home-portfolio-piece {
-    width: 30%;
-  }
-*/
   /* skills */
   .skill,
   .tool {
@@ -1015,20 +1006,6 @@ footer .social-icons li a:hover {
     width: 12.5em;
     justify-content: space-between;
   }
-}
-
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 
